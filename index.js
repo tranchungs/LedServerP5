@@ -3,7 +3,7 @@ const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const PORT = process.env.PORT || 8888;
+const PORT = process.env.PORT || 6945;
 var mongoose = require("mongoose");
 
 const LedModel = require("./models/LedModel");
